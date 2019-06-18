@@ -9,7 +9,10 @@ public class MyFirstJavaProgram {
 		
 		// START HERE
 	
-		
-		
+		Robot bob = new Robot();
+		bob.penDown();
+		bob.move(100);
+		bob.turn(100);
+		bob.hide();
 	}
 }
