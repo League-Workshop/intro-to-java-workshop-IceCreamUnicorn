@@ -6,7 +6,7 @@ import org.jointheleague.graphical.robot.Robot;
 public class FourSquare {
 	
 	// 2. Create a new Robot
-		Robot bob = new Robot();
+		Robot bob = new Robot("batman");
 
 	void go() {
 		// 4. Make the robot move as fast as possible

@@ -13,32 +13,32 @@ public class AwesomeOrNot {
 	// 3. Print out this variable
 
 	// 4. Get the user to enter something that they think is awesome
-
+			String hi = JOptionPane.showInputDialog("Enter something you think is awesome");
 	// 5. If the random number is 0
 			if(random == 0)
 			{
-				JOptionPane.showMessageDialog(null,"You're awesome!");
+				System.out.println(hi +" is awesome!");
 			}
 	// -- tell the user whatever they entered is awesome!
 
 	// 6. If the random number is 1
 			if(random == 1)
 			{
-				JOptionPane.showMessageDialog(null,"You're ok");
+				System.out.println(hi + " is ok");
 			}
 	// -- tell the user whatever they entered is ok.
 
 	// 7. If the random number is 2
 			if(random == 2)
 			{
-				JOptionPane.showMessageDialog(null,"You're boring!");
+				System.out.println(hi + " is boring!");
 			}
 	// -- tell the user whatever they entered is boring.
 
 	// 8. If the random number is 3
 			if(random == 3)
 			{
-				JOptionPane.showMessageDialog(null,"You're stupid!");
+				System.out.println(hi + " is stupid!");
 			}
 	// -- write your own answer
 		}
